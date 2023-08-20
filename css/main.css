@@ -20,7 +20,7 @@ body, html {
   font-size: 1em;
   line-height: 1.4;
   height: 130vh;
-  width: 100vw;
+  width: 95vw;
   margin: 0;
 }
 
@@ -75,11 +75,11 @@ a:active {
 }
 
 #line {
-  width: 100vw;
+  width: 90vw;
   color: white;
   border-bottom: 1px solid;
   display: inline-block;
-  margin-left: calc(50% - 50vw);
+  margin-left: calc(53% - 50vw);
   margin-right: calc(50% - 50vw);
 }
 
