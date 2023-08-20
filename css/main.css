@@ -20,8 +20,12 @@ body, html {
   font-size: 1em;
   line-height: 1.4;
   height: 130vh;
-  width: 95vw;
-  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
@@ -78,9 +82,6 @@ a:active {
   width: 90vw;
   color: white;
   border-bottom: 1px solid;
-  display: inline-block;
-  margin-left: calc(53% - 50vw);
-  margin-right: calc(50% - 50vw);
 }
 
 .genNav {
